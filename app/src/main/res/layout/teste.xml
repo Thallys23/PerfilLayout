@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,14 +7,62 @@
     app:circularflow_defaultRadius="1dp"
     app:layout_constraintCircleRadius="1dp">
 
-    <ImageView
-        android:id="@+id/imageView"
+
+
+
+
+    <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        app:circularflow_radiusInDP="100dp"
-        app:layout_constraintCircleRadius="90dp"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="66dp"
-        tools:srcCompat="@tools:sample/avatars" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="Edite as Suas Informações"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/caixa_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/black"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:hint="Nome Completo"/>
+
+    <EditText
+        android:id="@+id/Idade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/caixa_nome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="6dp"
+        android:hint="Digite a Sua Idade"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/Profissão"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Idade"
+        android:layout_centerInParent="true"
+        android:hint="Qual é a sua Profissão"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint= "#621D61"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:text="Salvar" />
+
+
+
+
+</RelativeLayout>

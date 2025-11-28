@@ -22,7 +22,7 @@
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/image_perfil"
-        android:text="Jalin Rabei"
+        android:text="Nome"
         android:textSize="35dp"
         android:textStyle="bold"
         android:gravity="center"/>
@@ -43,7 +43,7 @@
         android:layout_height="70dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/text_view_idade"
-        android:text="Profission: Programador"
+        android:text="Profission: "
         android:textSize="20dp"
         android:gravity="center"/>
 
