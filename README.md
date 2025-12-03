@@ -22,3 +22,4 @@ Apresenta validações básicas para garantir que os dados inseridos estejam cor
 Atualiza os elementos visuais dinamicamente conforme as ações do usuário.
 
 IMAGENS DO SOFTWARE EM APLICAÇÃO →
+![ImagemPerfil](https://github.com/user-attachments/assets/448eeb5a-7335-4a7d-9cfc-327825ac9d8a)
