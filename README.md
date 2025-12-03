@@ -20,6 +20,7 @@ realizar a captura dos dados do usuário através de campos de entrada;
 Interage com botões que acionam funções específicas dentro da aplicação;
 Apresenta validações básicas para garantir que os dados inseridos estejam corretos;
 Atualiza os elementos visuais dinamicamente conforme as ações do usuário.
+
 IMAGENS DO SOFTWARE EM APLICAÇÃO →
 
 
